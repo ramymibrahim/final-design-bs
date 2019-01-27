@@ -1,0 +1,11 @@
+main .container{
+    padding-top: 60px;
+}
+.head-image{
+    background: url('../img/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+}
