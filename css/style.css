@@ -20,7 +20,7 @@
     padding: 50px 0px;
 }
 .contact-div,.contact-form input,.contact-form textarea{
-    background: rgba(224, 224, 224, 0.4);
+    /* background: rgba(224, 224, 224, 0.4); */
     border-radius: 6px;
     border: none;    
 }
@@ -48,4 +48,30 @@
 }
 .contact-form textarea{
     height: 130px;
+}
+
+
+.si{
+    background-color: green !important;
+    color: white;
+    font-size: 28px;
+}
+.si::before{
+    content: '*';
+}
+
+.si::after{
+    content: '-';
+}
+
+#car-model-div{
+    background: white;
+    clear: both;
+}
+.cmd{
+    height: 100px;
+    width: 100px;
+    border: 2px  black solid;    
+    margin: 10px;
+    
 }
